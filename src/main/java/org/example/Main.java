@@ -1,5 +1,6 @@
 package org.example;
 
+
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -9,7 +10,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = scan.nextInt();
-
         System.out.print("The " + n + "th " + "term in the fibonacci sequence is " + fibonacciRecurse(n));
 
     }
@@ -19,7 +19,7 @@ public class Main {
         if (n <= 1) {
             return n;
         } else {
-            return (fibonacciRecurse(n - 1) + fibonacciRecurse(n - 2));
+             return(fibonacciRecurse(n - 1) + fibonacciRecurse(n - 2));
         }
 
     }
