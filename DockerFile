@@ -1,0 +1,4 @@
+FROM openjdk:10
+EXPOSE 8083
+ADD target/finalCen4802.jar finalCen4802.jar
+ENTRYPOINT ["java","-jar","/finalCen4802.jar"]
