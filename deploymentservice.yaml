@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: finalcen4802
-          image: alexinfante/finalcen4802:1.0
+          image: alexinfante/finalcen4802:latest
           # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
